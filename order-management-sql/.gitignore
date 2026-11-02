@@ -1,0 +1,22 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local secrets and environment files
+.env
+
+# Generated synthetic CSV data can be recreated with generate_data.py
+data/csv/*.csv
+!data/csv/.gitkeep
+data/imports/*
+!data/imports/.gitkeep
+
+# Streamlit local state
+.streamlit/secrets.toml
+
+# Test and tooling caches
+.pytest_cache/
+.coverage
+htmlcov/

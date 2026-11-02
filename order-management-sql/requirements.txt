@@ -1,0 +1,20 @@
+# Faker creates believable but synthetic customer and product records.
+Faker>=24.0,<40.0
+
+# Pandas writes CSV batches and prepares dashboard result frames.
+pandas>=2.0,<4.0
+
+# Pandas uses openpyxl to read uploaded .xlsx/.xlsm workbooks.
+openpyxl>=3.1,<4.0
+
+# pyodbc connects to SQL Server; a matching system ODBC driver is also required.
+pyodbc>=5.1,<6.0
+
+# python-dotenv reads local connection settings from an uncommitted .env file.
+python-dotenv>=1.0,<2.0
+
+# Streamlit provides the interactive portfolio dashboard.
+streamlit>=1.37,<2.0
+
+# pytest runs the opt-in SQL Server integration tests.
+pytest>=8.0,<9.0
